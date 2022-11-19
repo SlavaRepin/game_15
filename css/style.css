@@ -264,8 +264,6 @@ h6 {
   padding-right: 0.3125rem;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  width: 9.375rem;
-  height: 9.375rem;
   cursor: -webkit-grab;
   cursor: grab;
 }
@@ -548,18 +546,6 @@ h6 {
 			);
   }
 
-  .game__body-item {
-    width: calc(
-				4.53125rem + 77.5 * ((100vw - 20rem) / (1400 - 320))
-			);
-  }
-
-  .game__body-item {
-    height: calc(
-				4.53125rem + 77.5 * ((100vw - 20rem) / (1400 - 320))
-			);
-  }
-
   .game__btn {
     font-size: calc(
 				1.125rem + 2 * ((100vw - 20rem) / (1400 - 320))
@@ -765,6 +751,20 @@ h6 {
   }
 }
 
+@media screen and (min-height: 47.5em) and (max-width: 87.5em) {
+  .game__body-item {
+    width: calc(
+				4.53125rem + 77.5 * ((100vw - 20rem) / (1400 - 320))
+			);
+  }
+
+  .game__body-item {
+    height: calc(
+				4.53125rem + 77.5 * ((100vw - 20rem) / (1400 - 320))
+			);
+  }
+}
+
 @media screen and (max-height: 47.5em) and (max-width: 87.5em) {
   .game__body-item {
     width: calc(
@@ -799,6 +799,13 @@ h6 {
   .game__body-item {
     width: 7.8125rem;
     height: 7.8125rem;
+  }
+}
+
+@media screen and (min-height: 47.5em) {
+  .game__body-item {
+    width: 9.375rem;
+    height: 9.375rem;
   }
 }
 
