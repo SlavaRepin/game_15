@@ -154,6 +154,7 @@ h6 {
   -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
   font-size: 7.8125rem;
+  line-height: 1.12;
 }
 
 .game__over._active {
