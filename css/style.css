@@ -168,7 +168,7 @@ h6 {
   font-size: 2.5rem;
   letter-spacing: 0.075em;
   text-transform: uppercase;
-  color: rgb(69, 192, 240);
+  color: rgb(15, 65, 157);
   text-shadow: 0.0625rem 0.0625rem 0.125rem rgb(255, 255, 255), -0.0625rem 0.0625rem 0.125rem rgb(9, 5, 83), 0.0625rem -0.0625rem 0.125rem rgb(255, 255, 255), -0.0625rem -0.0625rem 0.125rem rgb(9, 5, 83);
 }
 
@@ -402,7 +402,7 @@ h6 {
 }
 
 .game__decor:nth-child(9) {
-  top: 2.5rem;
+  top: 0.625rem;
   left: 25rem;
 }
 
@@ -432,7 +432,7 @@ h6 {
 }
 
 .game__decor:last-child {
-  top: 3.125rem;
+  top: 0.9375rem;
   left: 0rem;
 }
 
@@ -680,7 +680,7 @@ h6 {
 
   .game__decor:nth-child(9) {
     top: calc(
-				2.1875rem + 5 * ((100vw - 20rem) / (1400 - 320))
+				0.9375rem + -5 * ((100vw - 20rem) / (1400 - 320))
 			);
   }
 
@@ -752,7 +752,7 @@ h6 {
 
   .game__decor:last-child {
     top: calc(
-				2.5rem + 10 * ((100vw - 20rem) / (1400 - 320))
+				0.625rem + 5 * ((100vw - 20rem) / (1400 - 320))
 			);
   }
 
